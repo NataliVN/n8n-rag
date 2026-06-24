@@ -1,0 +1,38 @@
+{
+  "arena": "VR Zion",
+  "currency": "RUB",
+  "vr_game_rates": [
+    { "day_type": "Будни", "time": "11:00–19:00", "duration_min": 30, "players": "1 игрок", "price": 500 },
+    { "day_type": "Будни", "time": "11:00–19:00", "duration_min": 60, "players": "1 игрок", "price": 800 },
+    { "day_type": "Будни", "time": "11:00–19:00", "duration_min": 60, "players": "команда", "price": 6000 },
+    { "day_type": "Будни", "time": "19:00–21:00", "duration_min": 30, "players": "1 игрок", "price": 600 },
+    { "day_type": "Будни", "time": "19:00–21:00", "duration_min": 60, "players": "1 игрок", "price": 1000 },
+    { "day_type": "Будни", "time": "19:00–21:00", "duration_min": 60, "players": "команда", "price": 7500 },
+    { "day_type": "Выходные", "time": "10:00–21:00", "duration_min": 30, "players": "1 игрок", "price": 800 },
+    { "day_type": "Выходные", "time": "10:00–21:00", "duration_min": 60, "players": "1 игрок", "price": 1200 },
+    { "day_type": "Выходные", "time": "10:00–21:00", "duration_min": 60, "players": "команда", "price": 8500 }
+  ],
+  "birthday_packages": [
+    {
+      "name": "ДЕНЬ",
+      "when": "Будни 11:00–18:00",
+      "duration_hours": 2.5,
+      "price": 12500,
+      "note": "самый низкий ценник"
+    },
+    {
+      "name": "ВЕЧЕР",
+      "when": "Будни 18:00–21:00",
+      "duration_hours": 2.5,
+      "price": 14500,
+      "note": "стандартный пакет приключений"
+    },
+    {
+      "name": "ВЫХОДНОЙ",
+      "when": "Праздники и выходные",
+      "duration_hours": 2.5,
+      "price": 17000,
+      "note": "фиксированная цена"
+    }
+  ]
+}
